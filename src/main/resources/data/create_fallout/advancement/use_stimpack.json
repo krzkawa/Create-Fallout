@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "create_fallout:stimpack"
+    },
+    "title": {
+      "translate": "advancements.use_stimpack.title"
+    },
+    "description": {
+      "translate": "advancements.use_stimpack.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use_stimpack_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

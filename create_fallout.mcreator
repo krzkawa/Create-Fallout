@@ -1,0 +1,771 @@
+{
+  "mod_elements": [
+    {
+      "name": "NukaCola",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_cola",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_fallout/models/item/nuka_cola.json",
+          "src/main/java/net/mcreator/createfallout/item/NukaColaItem.java"
+        ]
+      },
+      "path": "~/Foods/nukacola"
+    },
+    {
+      "name": "Createfallout",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "createfallout",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NukaColaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_cola_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/NukaColaRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Foods/nukacola"
+    },
+    {
+      "name": "NukaColaRightclickedsound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_cola_rightclickedsound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/NukaColaRightclickedsoundProcedure.java"
+        ]
+      },
+      "path": "~/Foods/nukacola"
+    },
+    {
+      "name": "SugarbombsPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarbombs_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/SugarbombsPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Foods/sugarbombs"
+    },
+    {
+      "name": "Sugarbombs",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarbombs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/item/SugarbombsItem.java",
+          "src/main/resources/assets/create_fallout/models/item/sugarbombs.json"
+        ]
+      },
+      "path": "~/Foods/sugarbombs"
+    },
+    {
+      "name": "EatASUGARBOMB",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_asugarbomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/advancement/eat_asugarbomb.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NukaColaGlass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_cola_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/item/NukaColaGlassItem.java",
+          "src/main/resources/assets/create_fallout/models/item/nuka_cola_glass.json"
+        ]
+      },
+      "path": "~/Foods/nukacola"
+    },
+    {
+      "name": "NukaColaFluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_cola_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/block/NukaColaFluidBlock.java",
+          "src/main/java/net/mcreator/createfallout/item/NukaColaFluidItem.java",
+          "src/main/resources/assets/create_fallout/blockstates/nuka_cola_fluid.json",
+          "src/main/resources/assets/create_fallout/models/block/nuka_cola_fluid.json",
+          "src/main/java/net/mcreator/createfallout/fluid/types/NukaColaFluidFluidType.java",
+          "src/main/java/net/mcreator/createfallout/fluid/NukaColaFluidFluid.java",
+          "src/main/resources/assets/create_fallout/models/item/nuka_cola_fluid_bucket.json"
+        ]
+      },
+      "path": "~/fluids"
+    },
+    {
+      "name": "Nukacolapainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukacolapainting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/painting_variant/nukacolapainting.json"
+        ]
+      },
+      "path": "~/Painting"
+    },
+    {
+      "name": "NukaCaps",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_caps",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/item/NukaCapsItem.java",
+          "src/main/resources/assets/create_fallout/models/item/nuka_caps.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "GatherNukaCaps",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gather_nuka_caps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/advancement/gather_nuka_caps.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BrowningSauce",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "browning_sauce",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_fallout/models/item/browning_sauce.json",
+          "src/main/java/net/mcreator/createfallout/item/BrowningSauceItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "BrowningSauceMixerBoiling",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "browning_sauce_mixer_boiling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/browning_sauce_mixer_boiling.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NukaColaMixerBoiling",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuka_cola_mixer_boiling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/nuka_cola_mixer_boiling.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NukaCapsPressing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuka_caps_pressing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/nuka_caps_pressing.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NukaColaGlassCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuka_cola_glass_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/nuka_cola_glass_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NukaColaFilling",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuka_cola_filling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/nuka_cola_filling.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SpawningLootTableFallout",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawning_loot_table_fallout",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/loot_table/chests/fallout.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "RedRocketStation",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_rocket_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/worldgen/structure/red_rocket_station.json",
+          "src/main/resources/data/create_fallout/worldgen/template_pool/red_rocket_station.json",
+          "src/main/resources/data/create_fallout/worldgen/structure_set/red_rocket_station.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "BroadcastStation",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broadcast_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/worldgen/structure/broadcast_station.json",
+          "src/main/resources/data/create_fallout/worldgen/template_pool/broadcast_station.json",
+          "src/main/resources/data/create_fallout/worldgen/structure_set/broadcast_station.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SugarBombsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sugar_bombs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/sugar_bombs_recipe.json"
+        ]
+      },
+      "path": "~/Foods/sugarbombs"
+    },
+    {
+      "name": "QuantumCola",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_cola",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/item/QuantumColaItem.java",
+          "src/main/resources/assets/create_fallout/models/item/quantum_cola.json"
+        ]
+      },
+      "path": "~/Foods/quantumcola"
+    },
+    {
+      "name": "QuantumColaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_cola_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/QuantumColaPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Foods/quantumcola"
+    },
+    {
+      "name": "QuantumColaPressing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "quantum_cola_pressing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/recipe/quantum_cola_pressing.json"
+        ]
+      },
+      "path": "~/Foods/quantumcola"
+    },
+    {
+      "name": "Stimpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stimpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_fallout/models/item/stimpack.json",
+          "src/main/java/net/mcreator/createfallout/item/StimpackItem.java"
+        ]
+      },
+      "path": "~/Item/Stimpack"
+    },
+    {
+      "name": "StimpackRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stimpack_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/StimpackRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Item/Stimpack"
+    },
+    {
+      "name": "Needled",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needled",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/damage_type/needled.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Radiation",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/damage_type/radiation.json"
+        ]
+      },
+      "path": "~/Effects/Radiated"
+    },
+    {
+      "name": "Radiated",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/potion/RadiatedMobEffect.java"
+        ]
+      },
+      "path": "~/Effects/Radiated"
+    },
+    {
+      "name": "RadiatedActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiated_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/RadiatedActiveTickConditionProcedure.java"
+        ]
+      },
+      "path": "~/Effects/Radiated"
+    },
+    {
+      "name": "RadiatedOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiated_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/RadiatedOnEffectActiveTickProcedure.java"
+        ]
+      },
+      "path": "~/Effects/Radiated"
+    },
+    {
+      "name": "UseStimpack",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_stimpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_fallout/advancement/use_stimpack.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Radaway",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radaway",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_fallout/models/item/radaway.json",
+          "src/main/java/net/mcreator/createfallout/item/RadawayItem.java"
+        ]
+      },
+      "path": "~/Item/Radaway"
+    },
+    {
+      "name": "RadawayRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radaway_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/RadawayRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Item/Radaway"
+    },
+    {
+      "name": "OnPlayerJoin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_join",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/createfallout/procedures/OnPlayerJoinProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "JoinConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "join_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createfallout/configuration/JoinConfigConfiguration.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "nukacoladrinking",
+      "files": [
+        "fallout_4_-_nuka_cola_drink_sound"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "radiated",
+      "files": [
+        "fallout-3-radiation-sound"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "radawayusesound",
+      "files": [
+        "fallout-4-radaway-sound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:NukaColaFluid"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Radaway",
+      "~CUSTOM:Stimpack"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.create_fallout.nuka_cola": "Nuka Cola",
+      "item.create_fallout.nuka_cola.description_0": "Ice-cold Nuka-Cola — the taste of the pre-war world!",
+      "item_group.create_fallout.createfallout": "Create: Fallout",
+      "subtitles.nukacoladrinking": "",
+      "item.create_fallout.sugarbombs.description_0": "§7Pre-War cereal. §fCrunchy, sweet, §aand slightly radioactive.§r §8Now with §e200% more sugar!§r ",
+      "item.create_fallout.sugarbombs": "Sugar Bombs",
+      "advancements.eat_asugarbomb.descr": "§7\"Start your day the §eEXPLOSIVE §7way — with §bSugar Bombs§7!\"§r ",
+      "advancements.eat_asugarbomb.title": "Eat a Sugar Bomb",
+      "item.create_fallout.nuka_cola_glass": "Nuka Cola Glass",
+      "item.create_fallout.nuka_cola_glass.description_1": "§8Maybe worth a cap or two.§r ",
+      "item.create_fallout.nuka_cola_glass.description_0": "§7Still collectible.§r ",
+      "block.create_fallout.nuka_cola_fluid": "Nuka Cola Fluid",
+      "fluid.create_fallout.nuka_cola_fluid": "Nuka Cola Fluid",
+      "fluid_type.create_fallout.nuka_cola_fluid": "Nuka Cola Fluid",
+      "item.create_fallout.nuka_cola_fluid_bucket": "Nuka Cola Fluid Bucket",
+      "painting.create_fallout.nukacolapainting.title": "Nuka Cola Advertisement",
+      "painting.create_fallout.nukacolapainting.author": "Snoopypupser",
+      "item.create_fallout.nuka_caps.description_0": "§6The wasteland’s finest currency.§r",
+      "item.create_fallout.nuka_caps": "Nuka Caps",
+      "item.create_fallout.nuka_caps.description_1": "§7Because money’s just metal now.§r ",
+      "advancements.gather_nuka_caps.title": "Gather Nuka Caps",
+      "advancements.gather_nuka_caps.descr": "§eOne Cap Closer to Fortune§r ",
+      "item.create_fallout.browning_sauce": "Browning Sauce",
+      "item.create_fallout.browning_sauce.description_0": "§8A thick, dark sauce from the old world.§r",
+      "item.create_fallout.browning_sauce.description_1": "§7Adds flavor... and maybe radiation.§r",
+      "item.create_fallout.quantum_cola.description_1": "§7Causes mild luminescence.§r",
+      "item.create_fallout.quantum_cola.description_0": "§9A rare Nuka variant infused with §bquantum particles.§r",
+      "item.create_fallout.quantum_cola": "Quantum Cola",
+      "item.create_fallout.stimpack": "Stimpack",
+      "item.create_fallout.stimpack.description_2": "§7keeps you alive in the wasteland.",
+      "item.create_fallout.stimpack.description_1": "§7Quickly heals injuries and",
+      "item.create_fallout.stimpack.description_0": "§cA standard medical injector.",
+      "death.attack.needled": "%1$s overdosed on a Stimpack. ",
+      "death.attack.needled.item": "%1$s was killed by %2$s using %3$s",
+      "death.attack.needled.player": "%1$s died whilst trying to escape %2$s",
+      "subtitles.radiated": "",
+      "death.attack.radiation": "%1$s succumbed to radiation poisoning.",
+      "death.attack.radiation.player": "%1$s died whilst trying to escape %2$s",
+      "death.attack.radiation.item": "%1$s was killed by %2$s using %3$s",
+      "effect.create_fallout.radiated": "Radiated",
+      "advancements.use_stimpack.title": "§cFirst Aid, Wasteland Style ",
+      "advancements.use_stimpack.descr": "§7Use a §cStimpack §7for the first time. ",
+      "item.create_fallout.radaway": "Radaway",
+      "item.create_fallout.radaway.description_1": "§7and helps your body recover.       ",
+      "item.create_fallout.radaway.description_0": "§aReduces radiation levels ",
+      "subtitles.radawayusesound": "",
+      "create_fallout.configuration.----------|_playerjoinworldmessage|----------": "----------| Player join world message |----------",
+      "create_fallout.configuration.enable_join_message": "Enable Join Message"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModConfigs.java",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModFluidTypes.java",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModFluids.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModMobEffects.java",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModBlocks.java",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModItems.java",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/create_fallout/sounds.json",
+      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/createfallout/CreateFalloutMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Foods",
+        "children": [
+          {
+            "name": "nukacola",
+            "children": []
+          },
+          {
+            "name": "sugarbombs",
+            "children": []
+          },
+          {
+            "name": "quantumcola",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "fluids",
+        "children": []
+      },
+      {
+        "name": "Painting",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": [
+          {
+            "name": "Stimpack",
+            "children": []
+          },
+          {
+            "name": "Radaway",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": [
+          {
+            "name": "Radiated",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "create_fallout",
+    "modName": "Create: Fallout",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.createfallout"
+  },
+  "mcreatorVersion": 202500344519
+}

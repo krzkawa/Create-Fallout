@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "createfood:cream_cheese"
+    },
+    {
+      "item": "createfood:cream_cheese"
+    },
+    {
+      "item": "createfood:butter"
+    },
+    {
+      "item": "createfood:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 450,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_fallout:sugarbombs"
+    }
+  ]
+}

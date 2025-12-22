@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "create_fallout:sugarbombs"
+    },
+    "title": {
+      "translate": "advancements.eat_asugarbomb.title"
+    },
+    "description": {
+      "translate": "advancements.eat_asugarbomb.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_asugarbomb_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "create_fallout:sugarbombs"
+          ]
+        }
+      }
+    }
+  }
+}

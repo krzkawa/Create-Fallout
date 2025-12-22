@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+  	{
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "create_fallout:nuka_cola"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_fallout:quantum_cola"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Radiated",
+    "icon": "radaway-removebg-preview",
+    "color": {
+      "value": -10027264,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "SLIME"
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "RadiatedOnEffectActiveTick"
+    },
+    "activeTickCondition": {
+      "name": "RadiatedActiveTickCondition"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "nukacoladrinking": {
+    "sounds": [
+      {
+        "name": "create_fallout:fallout_4_-_nuka_cola_drink_sound",
+        "stream": false
+      }
+    ]
+  },
+  "radiated": {
+    "sounds": [
+      {
+        "name": "create_fallout:fallout-3-radiation-sound",
+        "stream": false
+      }
+    ]
+  },
+  "radawayusesound": {
+    "sounds": [
+      {
+        "name": "create_fallout:fallout-4-radaway-sound",
+        "stream": false
+      }
+    ]
+  }
+}

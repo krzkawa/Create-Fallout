@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_seeds"
+    },
+    {
+      "item": "farmersdelight:tomato_seeds"
+    },
+    {
+      "item": "farmersdelight:tomato_seeds"
+    },
+    {
+      "item": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "item": "create_fallout:browning_sauce"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_fallout:nuka_cola_fluid"
+    }
+  ]
+}
+
+
+

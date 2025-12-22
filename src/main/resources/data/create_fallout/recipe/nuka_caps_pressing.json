@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:iron_sheet"
+    },
+    {
+      "item": "create:iron_sheet"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_fallout:nuka_caps"
+    }
+  ]
+}

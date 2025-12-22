@@ -1,0 +1,5 @@
+{
+  "parent": "neoforge:item/bucket_drip",
+  "loader": "neoforge:fluid_container",
+  "fluid": "create_fallout:nuka_cola_fluid"
+}

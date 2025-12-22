@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "create_fallout:nuka_caps"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "create_fallout:nuka_cola_glass",
+    "count": 1
+  }
+}

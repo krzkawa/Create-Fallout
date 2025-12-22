@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Eat a Sugar Bomb",
+    "achievementDescription": "§7\"Start your day the §eEXPLOSIVE §7way — with §bSugar Bombs§7!\"§r ",
+    "achievementIcon": {
+      "value": "CUSTOM:Sugarbombs"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"245\" y=\"63\"><next><block type=\"item_consumed\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Sugarbombs</field></block></value></block></next></block></xml>"
+  }
+}

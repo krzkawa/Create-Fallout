@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_fallout:nuka_cola_glass"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "create_fallout:nuka_cola_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_fallout:nuka_cola"
+    }
+  ]
+}
