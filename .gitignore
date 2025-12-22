@@ -11,6 +11,8 @@ build/
 
 # MCreator workspace
 .mcreator/
+*.mcreator
+mcreator.gradle
 
 # Minecraft client/server files
 run/
