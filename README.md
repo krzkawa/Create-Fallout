@@ -22,7 +22,6 @@ To run this mod, the following mods are required:
 * [Create Mod](https://www.curseforge.com/minecraft/mc-mods/create) (Base Engine)
 * [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food)
 * [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
-* *Add other required mods here if applicable*
 
 ## 🚀 Installation
 1. Install **NeoForge** for **1.21.1**.
