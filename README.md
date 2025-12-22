@@ -38,7 +38,7 @@ To run this mod, the following mods are required:
 ---
 ### 💬 Join the Community
 Have questions or want to follow the development? Join our official Discord:
-**[discord.gg/uc7](https://discord.gg/uc7)**
+**[Click to join](https://discord.gg/uc7)**
 
 <div align="center">
   *Developed by snoopypupserr.*
