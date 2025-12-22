@@ -3,7 +3,6 @@
   <img src="https://github.com/snoopypupserr/Create-Fallout/blob/master/Create:FalloutLogo.png?raw=true" width="200" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(0,0,0,0.5);">
 
   # Create: Fallout
-
   [![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/mod/create-fallout)
   [![CurseForge](https://img.shields.io/badge/CurseForge-Project-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/create-fallout)
   [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/uc7)
@@ -13,6 +12,7 @@
   and a gritty atmosphere to your Minecraft world.
 
 </div>
+
 
 ## 🛠️ Features
 * **Post-Apocalyptic Tech:** New components designed for wasteland machinery.
