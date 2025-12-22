@@ -41,6 +41,5 @@ Have questions or want to follow the development? Join our official Discord:
 **[Click to join](https://discord.gg/uc7)**
 
 <div align="center">
-  *Developed by Snoopypupser*
-  *Pixel Artist: Crymira*
+  *Developed by Snoopypupser - Pixel Artist: Crymira*
 </div>
