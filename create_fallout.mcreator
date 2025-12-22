@@ -9,7 +9,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_fallout/models/item/nuka_cola.json",
-          "src/main/java/net/mcreator/createfallout/item/NukaColaItem.java"
+          "src/main/java/net/snoopypupser/createfallout/item/NukaColaItem.java"
         ]
       },
       "path": "~/Foods/nukacola"
@@ -38,7 +38,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/NukaColaRightclickedProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/NukaColaRightclickedProcedure.java"
         ]
       },
       "path": "~/Foods/nukacola"
@@ -61,7 +61,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/NukaColaRightclickedsoundProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/NukaColaRightclickedsoundProcedure.java"
         ]
       },
       "path": "~/Foods/nukacola"
@@ -80,7 +80,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/SugarbombsPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/SugarbombsPlayerFinishesUsingItemProcedure.java"
         ]
       },
       "path": "~/Foods/sugarbombs"
@@ -93,7 +93,7 @@
       "registry_name": "sugarbombs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/item/SugarbombsItem.java",
+          "src/main/java/net/snoopypupser/createfallout/item/SugarbombsItem.java",
           "src/main/resources/assets/create_fallout/models/item/sugarbombs.json"
         ]
       },
@@ -120,7 +120,7 @@
       "registry_name": "nuka_cola_glass",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/item/NukaColaGlassItem.java",
+          "src/main/java/net/snoopypupser/createfallout/item/NukaColaGlassItem.java",
           "src/main/resources/assets/create_fallout/models/item/nuka_cola_glass.json"
         ]
       },
@@ -134,12 +134,12 @@
       "registry_name": "nuka_cola_fluid",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/block/NukaColaFluidBlock.java",
-          "src/main/java/net/mcreator/createfallout/item/NukaColaFluidItem.java",
           "src/main/resources/assets/create_fallout/blockstates/nuka_cola_fluid.json",
+          "src/main/java/net/snoopypupser/createfallout/fluid/types/NukaColaFluidFluidType.java",
+          "src/main/java/net/snoopypupser/createfallout/item/NukaColaFluidItem.java",
+          "src/main/java/net/snoopypupser/createfallout/fluid/NukaColaFluidFluid.java",
           "src/main/resources/assets/create_fallout/models/block/nuka_cola_fluid.json",
-          "src/main/java/net/mcreator/createfallout/fluid/types/NukaColaFluidFluidType.java",
-          "src/main/java/net/mcreator/createfallout/fluid/NukaColaFluidFluid.java",
+          "src/main/java/net/snoopypupser/createfallout/block/NukaColaFluidBlock.java",
           "src/main/resources/assets/create_fallout/models/item/nuka_cola_fluid_bucket.json"
         ]
       },
@@ -166,8 +166,8 @@
       "registry_name": "nuka_caps",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/item/NukaCapsItem.java",
-          "src/main/resources/assets/create_fallout/models/item/nuka_caps.json"
+          "src/main/resources/assets/create_fallout/models/item/nuka_caps.json",
+          "src/main/java/net/snoopypupser/createfallout/item/NukaCapsItem.java"
         ]
       },
       "path": "~/Item"
@@ -194,7 +194,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_fallout/models/item/browning_sauce.json",
-          "src/main/java/net/mcreator/createfallout/item/BrowningSauceItem.java"
+          "src/main/java/net/snoopypupser/createfallout/item/BrowningSauceItem.java"
         ]
       },
       "path": "~/Item"
@@ -328,7 +328,7 @@
       "registry_name": "quantum_cola",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/item/QuantumColaItem.java",
+          "src/main/java/net/snoopypupser/createfallout/item/QuantumColaItem.java",
           "src/main/resources/assets/create_fallout/models/item/quantum_cola.json"
         ]
       },
@@ -348,7 +348,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/QuantumColaPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/QuantumColaPlayerFinishesUsingItemProcedure.java"
         ]
       },
       "path": "~/Foods/quantumcola"
@@ -375,7 +375,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_fallout/models/item/stimpack.json",
-          "src/main/java/net/mcreator/createfallout/item/StimpackItem.java"
+          "src/main/java/net/snoopypupser/createfallout/item/StimpackItem.java"
         ]
       },
       "path": "~/Item/Stimpack"
@@ -402,7 +402,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/StimpackRightclickedProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/StimpackRightclickedProcedure.java"
         ]
       },
       "path": "~/Item/Stimpack"
@@ -441,7 +441,7 @@
       "registry_name": "radiated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/potion/RadiatedMobEffect.java"
+          "src/main/java/net/snoopypupser/createfallout/potion/RadiatedMobEffect.java"
         ]
       },
       "path": "~/Effects/Radiated"
@@ -465,7 +465,7 @@
         ],
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/RadiatedActiveTickConditionProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/RadiatedActiveTickConditionProcedure.java"
         ]
       },
       "path": "~/Effects/Radiated"
@@ -488,7 +488,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/RadiatedOnEffectActiveTickProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/RadiatedOnEffectActiveTickProcedure.java"
         ]
       },
       "path": "~/Effects/Radiated"
@@ -515,7 +515,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_fallout/models/item/radaway.json",
-          "src/main/java/net/mcreator/createfallout/item/RadawayItem.java"
+          "src/main/java/net/snoopypupser/createfallout/item/RadawayItem.java"
         ]
       },
       "path": "~/Item/Radaway"
@@ -542,7 +542,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/RadawayRightclickedProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/RadawayRightclickedProcedure.java"
         ]
       },
       "path": "~/Item/Radaway"
@@ -565,7 +565,7 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/createfallout/procedures/OnPlayerJoinProcedure.java"
+          "src/main/java/net/snoopypupser/createfallout/procedures/OnPlayerJoinProcedure.java"
         ]
       }
     },
@@ -577,7 +577,7 @@
       "registry_name": "join_config",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createfallout/configuration/JoinConfigConfiguration.java"
+          "src/main/java/net/snoopypupser/createfallout/configuration/JoinConfigConfiguration.java"
         ]
       }
     }
@@ -673,19 +673,19 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModConfigs.java",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModFluidTypes.java",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModFluids.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModConfigs.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModFluidTypes.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModFluids.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModMobEffects.java",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModBlocks.java",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModItems.java",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModTabs.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModMobEffects.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModBlocks.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModItems.java",
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModSounds.java",
+      "src/main/java/net/snoopypupser/createfallout/CreateFalloutMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/create_fallout/sounds.json",
-      "src/main/java/net/mcreator/createfallout/init/CreateFalloutModSounds.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/createfallout/CreateFalloutMod.java"
+      "src/main/java/net/snoopypupser/createfallout/init/CreateFalloutModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -768,7 +768,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Items got Pixeld and 3d Modeled by Crymira",
-    "modElementsPackage": "net.mcreator.createfallout"
+    "modElementsPackage": "net.snoopypupser.createfallout"
   },
   "mcreatorVersion": 202500344519
 }
