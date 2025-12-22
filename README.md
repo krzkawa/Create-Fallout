@@ -8,8 +8,6 @@
   [![CurseForge](https://img.shields.io/badge/CurseForge-Project-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/create-fallout)
   [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/uc7)
 
-  ---
-
   **Create: Fallout** is an immersive post-apocalyptic expansion for the **Create Mod**.  
   It blends mechanical engineering with wasteland survival, bringing new challenges  
   and a gritty atmosphere to your Minecraft world.
