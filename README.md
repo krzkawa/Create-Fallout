@@ -1,29 +1,38 @@
 # Create: Fallout ☢️
 
-**Create: Fallout** is an immersive post-apocalyptic expansion for the **Create Mod**. This add-on brings a nuclear wasteland atmosphere to your Minecraft world, combining the mechanical genius of Create with the gritty challenges of a fallout scenario.
+**Create: Fallout** is an immersive post-apocalyptic expansion for the **Create Mod**. It blends mechanical engineering with wasteland survival, bringing new challenges and a gritty atmosphere to your Minecraft world.
 
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/mod/create-fallout)
 [![CurseForge](https://img.shields.io/badge/CurseForge-Project-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/create-fallout)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/uc7)
 
 ---
 
 ## 🛠️ Features
-* **Post-Apocalyptic Mechanics:** New components designed to fit the wasteland aesthetic.
-* **Customizable Config:** Easily toggle features like the "Join Message" via the local config file.
-* **Seamless Integration:** Built specifically to work alongside the base **Create Mod**.
+* **Post-Apocalyptic Tech:** New components designed for wasteland machinery.
+* **Wasteland Survival:** Atmospheric changes and survival elements integrated with Create.
+* **Customizable Config:** Toggle features like the "Join Message" easily via the config file.
 
 ## ⚙️ Technical Details
 * **Minecraft Version:** 1.21.1
 * **Mod Loader:** NeoForge
-* **Dependency:** [Create Mod](https://www.curseforge.com/minecraft/mc-mods/create)
+
+## 📦 Required Dependencies
+To run this mod, the following mods are required:
+* [Create Mod](https://www.curseforge.com/minecraft/mc-mods/create) (Base Engine)
+* [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food)
+* [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
+* *Add other required mods here if applicable*
 
 ## 🚀 Installation
-1. Ensure you have the latest version of **NeoForge** installed for **1.21.1**.
-2. Download the **Create Mod** (required dependency).
-3. Download **Create: Fallout** from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-fallout).
-4. Place both `.jar` files into your `mods` folder.
-
-## 📂 Development & Source
-This project is developed using **MCreator**. The source code is maintained here on GitHub to ensure transparency and version control.
+1. Install **NeoForge** for **1.21.1**.
+2. Download all required **Dependencies** listed above.
+3. Download **Create: Fallout** from [Modrinth](https://modrinth.com/mod/create-fallout) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-fallout).
+4. Drop all `.jar` files into your Minecraft `mods` folder.
 
 ---
-*Developed by snoopypupserr. For more information and updates, check out the official CurseForge page!*
+### 💬 Join the Community
+Have questions or want to follow the development? Join our official Discord:
+**[discord.gg/uc7](https://discord.gg/uc7)**
+
+*Developed by snoopypupserr.*
