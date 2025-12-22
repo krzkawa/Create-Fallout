@@ -11,7 +11,7 @@ build/
 
 # MCreator workspace
 .mcreator/
-*.mcreator
+create_fallout.mcreator
 mcreator.gradle
 
 # Minecraft client/server files
