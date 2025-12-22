@@ -580,6 +580,39 @@
           "src/main/java/net/snoopypupser/createfallout/configuration/JoinConfigConfiguration.java"
         ]
       }
+    },
+    {
+      "name": "RadiationOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/snoopypupser/createfallout/client/screens/RadiationOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Effects/Radiated"
+    },
+    {
+      "name": "RadiationOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_overlay_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/snoopypupser/createfallout/procedures/RadiationOverlayDisplayOverlayIngameProcedure.java"
+        ]
+      },
+      "path": "~/Effects/Radiated"
     }
   ],
   "variable_elements": [],
