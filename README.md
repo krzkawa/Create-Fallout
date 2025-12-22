@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/snoopypupserr/Create-Fallout/blob/master/Create:FalloutLogo.png?raw=true" width="200" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(0,0,0,0.5);">
+  <img src="https://github.com/snoopypupserr/Create-Fallout/blob/master/src/main/resources/assets/create_fallout/textures/new_create_logo_background-re-export.png?raw=true" width="200" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(0,0,0,0.5);">
 
   # Create: Fallout
   [![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/mod/create-fallout)
