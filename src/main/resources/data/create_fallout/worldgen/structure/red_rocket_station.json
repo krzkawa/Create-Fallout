@@ -10,6 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "desert",
+  "biomes": "#create_fallout:has_structure/fallout_stations",
   "use_expansion_hack": false
 }
