@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '1.0'
-base.archivesName = "modid"
+base.archivesName = "create-fallout"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
@@ -33,7 +33,7 @@ neoForge {
     }
 
     mods {
-        mcreator {
+        create_fallout {
             sourceSet sourceSets.main
         }
     }
@@ -43,4 +43,6 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
-apply from: 'mcreator.gradle'
+if (file('mcreator.gradle').exists()) {
+    apply from: 'mcreator.gradle'
+}
